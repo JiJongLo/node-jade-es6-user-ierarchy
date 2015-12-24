@@ -1,0 +1,107 @@
+[ {
+  "id" : 3145728,
+  "name" : "Vitalii Bodrov",
+  "position" : "director",
+  "count" : 3,
+  "subordinate" : [{
+    "id" : 3145628,
+    "name" : "Arthur Birykov",
+    "position" : "deputy",
+    "count" : 3,
+    "subordinate"  : [
+      {
+        "id" : 314577568,
+        "name" : "Vladen Kalinin",
+        "position" : "contractor",
+        "count" : 4
+      },
+      {
+        "id" : 3145452377568,
+        "name" : "Jaromire Vagin",
+        "position" : "contractor",
+        "count" : 4
+      },
+      {
+        "id" : 31534423768,
+        "name" : "Pauline Zotova",
+        "position" : "contractor",
+        "count" : 4
+      },
+      {
+        "id" : 3153856768,
+        "name" : "JAromir Vagin",
+        "position" : "contractor",
+        "count" : 4
+      }
+
+    ]
+  },
+    {
+      "id" : 3245628,
+      "name" : "Hella Sergeyevna",
+      "position" : "deputy",
+      "count" : 3,
+      "subordinate"  : [
+        {
+          "id" : 4564577568,
+          "name" : "Edvard Mironov",
+          "position" : "contractor",
+          "count" : 4
+        },
+        {
+          "id" : 987452377568,
+          "name" : "Galina Yefremova",
+          "position" : "contractor",
+          "count" : 4
+        },
+        {
+          "id" : 56223768,
+          "name" : "Lada Zuyeva",
+          "position" : "contractor",
+          "count" : 4
+        },
+        {
+          "id" : 5622478,
+          "name" : "Lucia Andreyeva",
+          "position" : "contractor",
+          "count" : 4
+        }
+
+      ]
+    },
+    {
+      "id" : 3445628,
+      "name" : "Jeanne Shubina",
+      "position" : "deputy",
+      "count" : 3,
+      "subordinate"  : [
+        {
+          "id" : 8657477,
+          "name" : "Peter Pirogov",
+          "position" : "contractor",
+          "count" : 4
+        },
+        {
+          "id" : 945326675,
+          "name" : "Hella Bodrova",
+          "position" : "contractor",
+          "count" : 4
+        },
+        {
+          "id" : 2346897844,
+          "name" : "Tatina Michina",
+          "position" : "contractor",
+          "count" : 4
+        },
+        {
+          "id" : 52792115434,
+          "name" : "Nelly  Lavrentyev",
+          "position" : "contractor",
+          "count" : 4
+        }
+
+      ]
+    }
+  ]
+
+}]
