@@ -55,7 +55,6 @@ class RenderTable extends Component {
         var viewerHeight = window.innerHeight;
         var tree = d3.layout.tree()
             .size([viewerWidth, viewerHeight]);
-        console.log(viewerWidth, viewerHeight)
 
         // define a d3 diagonal projection for use by the node paths later on.
         var diagonal = d3.svg.diagonal()
@@ -283,7 +282,14 @@ class RenderTable extends Component {
                         drag: drag.id,
                         select: select.id
                     })
-                }).then(function (data) {
+                }).then(function (response) {
+                    return response.json()
+                }).then(function (json) {
+                    root = json;
+                    root.x0 = viewerWidth / 2 - 150;
+                    root.y0 = viewerHeight / 2;
+                    update(root)
+                }).catch(function (ex) {
 
                 });
             }

@@ -11,7 +11,7 @@
       "count" : 4,
       "children": [
         {
-          "id": 12121212122743325314577568,
+          "id": 121212114577568,
           "name": "Edvar Mironov",
           "position" : "contractor",
           "count" : 5,
@@ -23,7 +23,7 @@
               "count": 0
             },
             {
-              "id": 32343286643645654654148665365346536,
+              "id": 148665365346536,
               "name": "2",
               "position": "courier",
               "count": 0
@@ -87,7 +87,7 @@
           ]
         },
         {
-          "id": 3145775432523453245568,
+          "id": 31457700005568,
           "name": "LAda Zuyeva",
           "position" : "contractor",
           "count" : 5,
