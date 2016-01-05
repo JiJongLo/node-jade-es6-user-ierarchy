@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var myParser = require("body-parser");
 var users = require('../public/users');
-var fileName = "../public/users";
+var fileName = "../public/users.json";
 var _  = require('lodash');
 var qs = require('querystring');
 var fs = require('fs');
@@ -21,7 +21,6 @@ function findUserData(users, id){
                 var i = users[j];
                 if (i.id === id) {
                     buffer = _.clone(i);
-                    return buffer;
                 }
                 else {
                     if (!_.isEmpty(i.children))  buffer = _.assign(buffer, findUserData(i.children, id));
@@ -63,8 +62,18 @@ router.post('/rest/update', function(req, res, next) {
   var selectInfo = findUserData(users , select);
     var usersForSend = replaceUserData([users], drag, selectInfo)[0];
     usersForSend = replaceUserData([usersForSend], select, dragInfo)[0];
+    console.log(fileName);
+    //fs.writeFile(fileName, 'Hello Node.js', function (err) {
+    //    if (err) throw err;
+    //    console.log('It\'s saved!');
+    //});
     //fs.writeFileSync(fileName, JSON.stringify(usersForSend));
     res.send(JSON.stringify(usersForSend));
+    //fs.writeFileSync(fileName, JSON.stringify(usersForSend));
+    //fs.access(fileName, fs.R_OK | fs.W_OK, function (err) {
+    //    console.log(err ? 'no access!' : 'can read/write');
+    //});
+    // res.send(JSON.stringify(usersForSend));
   //console.log(dragInfo, drag)
 
 });

@@ -1,23 +1,23 @@
 {
-  "id" : 3145728,
+  "id": 3145728,
   "name": "Vlad Bodrov",
-  "position" : "director",
-  "count" : 3,
+  "position": "director",
+  "count": 3,
   "children": [
     {
       "id": 32095668745628,
-      "name" : "Hella Sergeyevna",
-      "position" : "deputy",
-      "count" : 4,
+      "name": "Hella Sergeyevna",
+      "position": "deputy",
+      "count": 4,
       "children": [
         {
           "id": 121212114577568,
           "name": "Edvar Mironov",
-          "position" : "contractor",
-          "count" : 5,
+          "position": "contractor",
+          "count": 5,
           "children": [
             {
-              "id": 9876786314866346536,
+              "id": 9876786314866346000,
               "name": "1",
               "position": "courier",
               "count": 0
@@ -29,19 +29,19 @@
               "count": 0
             },
             {
-              "id": 3151224354435345466386536,
+              "id": 3.1512243544353453e+24,
               "name": "3",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 3767546456456464645645685443736,
+              "id": 3.7675464564564647e+30,
               "name": "4",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 4236736356608986575756756756,
+              "id": 4.236736356608987e+27,
               "name": "5",
               "position": "courier",
               "count": 0
@@ -50,9 +50,9 @@
         },
         {
           "id": 12121216456456466,
-          "name" : "Galina Yefremova",
-          "position" : "contractor",
-          "count" : 5,
+          "name": "Galina Yefremova",
+          "position": "contractor",
+          "count": 5,
           "children": [
             {
               "id": 24235525252,
@@ -89,23 +89,23 @@
         {
           "id": 31457700005568,
           "name": "LAda Zuyeva",
-          "position" : "contractor",
-          "count" : 5,
+          "position": "contractor",
+          "count": 5,
           "children": [
             {
-              "id": 7835636432432423456456,
+              "id": 7.835636432432424e+21,
               "name": "11",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 31486653456435645665346536,
+              "id": 3.1486653456435644e+25,
               "name": "12",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 31546635645654586536,
+              "id": 31546635645654585000,
               "name": "13",
               "position": "courier",
               "count": 0
@@ -125,13 +125,13 @@
           ]
         },
         {
-          "id": 314577567498678556457568,
+          "id": 3.145775674986786e+23,
           "name": "Lucla Andreyevna",
-          "position" : "contractor",
-          "count" : 5,
+          "position": "contractor",
+          "count": 5,
           "children": [
             {
-              "id": 3148663460989654435423536,
+              "id": 3.1486634609896547e+24,
               "name": "16",
               "position": "courier",
               "count": 0
@@ -143,30 +143,29 @@
               "count": 0
             },
             {
-              "id": 315466553453434386536,
+              "id": 315466553453434400000,
               "name": "18",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 385443534534754336,
+              "id": 385443534534754300,
               "name": "19",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 42367543534635566,
+              "id": 42367543534635570,
               "name": "20",
               "position": "courier",
               "count": 0
             }
           ]
         }
-
       ]
     },
     {
-      "id": 314562647674534575628,
+      "id": 314562647674534560000,
       "name": "Arthur Birykov",
       "position": "deputy",
       "count": 4,
@@ -178,31 +177,31 @@
           "count": 5,
           "children": [
             {
-              "id": 3148665345346346536,
+              "id": 3148665345346346500,
               "name": "21",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 3148665365456365365346536,
+              "id": 3.1486653654563656e+24,
               "name": "22",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 315466364565464536586536,
+              "id": 3.154663645654645e+23,
               "name": "23",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 3854436564564564536736,
+              "id": 3.854436564564565e+21,
               "name": "24",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 4236745656456456363566,
+              "id": 4.2367456564564564e+21,
               "name": "25",
               "position": "courier",
               "count": 0
@@ -210,7 +209,7 @@
           ]
         },
         {
-          "id": 31089565464574577568,
+          "id": 31089565464574580000,
           "name": "Vladen Kalinin",
           "position": "contractor",
           "count": 5,
@@ -248,37 +247,37 @@
           ]
         },
         {
-          "id": 314577507764654768,
+          "id": 314577507764654800,
           "name": "Pauline Zotova",
           "position": "contractor",
           "count": 5,
           "children": [
             {
-              "id": 31486342424246346536,
+              "id": 31486342424246346000,
               "name": "31",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 31486653654424242465346536,
+              "id": 3.1486653654424244e+25,
               "name": "32",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 3154664352354325235386536,
+              "id": 3.1546643523543255e+24,
               "name": "33",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 385454386994243736,
+              "id": 385454386994243700,
               "name": "34",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 4236737998234463566,
+              "id": 4236737998234463700,
               "name": "35",
               "position": "courier",
               "count": 0
@@ -286,37 +285,37 @@
           ]
         },
         {
-          "id": 31457756806532357676342,
+          "id": 3.1457756806532357e+22,
           "name": "Jaromir Vagin",
           "position": "contractor",
           "count": 5,
           "children": [
             {
-              "id": 31486121232116346536,
+              "id": 31486121232116347000,
               "name": "36",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 314866126241235365346536,
+              "id": 3.148661262412354e+23,
               "name": "37",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 311367865466386536,
+              "id": 311367865466386560,
               "name": "38",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 385485646464643736,
+              "id": 385485646464643700,
               "name": "39",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 423693165577363566,
+              "id": 423693165577363600,
               "name": "40",
               "position": "courier",
               "count": 0
@@ -327,30 +326,30 @@
     },
     {
       "id": 654386793445628,
-      "name" : "Jeanne Shubina",
-      "position" : "deputy",
-      "count" : 4,
+      "name": "Jeanne Shubina",
+      "position": "deputy",
+      "count": 4,
       "children": [
         {
-          "id": 314570326687568,
-          "name" : "Peter Pirogov",
-          "position" : "contractor",
-          "count" : 5,
+          "id": 385485664564563540000,
+          "name": "54",
+          "position": "contractor",
+          "count": 5,
           "children": [
             {
-              "id": 3148608970806346536,
+              "id": 3148608970806347000,
               "name": "41",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 31486659780780365346536,
+              "id": 3.1486659780780365e+22,
               "name": "42",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 315467089978596386536,
+              "id": 315467089978596400000,
               "name": "43",
               "position": "courier",
               "count": 0
@@ -367,22 +366,23 @@
               "position": "courier",
               "count": 0
             }
-          ]
+          ],
+          "write": true
         },
         {
           "id": 12233465314577568,
-          "name" : "Hella Bodrova",
-          "position" : "contractor",
-          "count" : 5,
+          "name": "Hella Bodrova",
+          "position": "contractor",
+          "count": 5,
           "children": [
             {
-              "id": 31486678767896346536,
+              "id": 31486678767896347000,
               "name": "46",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 314866536523546347346536,
+              "id": 3.148665365235464e+23,
               "name": "47",
               "position": "courier",
               "count": 0
@@ -400,7 +400,7 @@
               "count": 0
             },
             {
-              "id": 423673635986798666,
+              "id": 423673635986798660,
               "name": "50",
               "position": "courier",
               "count": 0
@@ -408,37 +408,37 @@
           ]
         },
         {
-          "id": 314454357708968568,
+          "id": 314454357708968600,
           "name": "Tatiana Mishina",
-          "position" : "contractor",
-          "count" : 5,
+          "position": "contractor",
+          "count": 5,
           "children": [
             {
-              "id": 314866781343432767896346536,
+              "id": 3.1486678134343277e+26,
               "name": "51",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 3148665365256534543546347346536,
+              "id": 3.1486653652565346e+30,
               "name": "52",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 315467456435345345376386536,
+              "id": 3.154674564353453e+26,
               "name": "53",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 38546587567567756843736,
+              "id": 3.854658756756775e+22,
               "name": "54",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 42367363655465365986798666,
+              "id": 4.236736365546537e+25,
               "name": "55",
               "position": "courier",
               "count": 0
@@ -448,42 +448,42 @@
         {
           "id": 13431457708968568,
           "name": "Nelly Lavrentyev",
-          "position" : "contractor",
-          "count" : 5,
+          "position": "contractor",
+          "count": 5,
           "children": [
             {
-              "id": 3148667857000346536,
+              "id": 3148667857000346600,
               "name": "51",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 31486652835657346536,
+              "id": 31486652835657347000,
               "name": "52",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 315874765467376386536,
+              "id": 315874765467376400000,
               "name": "53",
               "position": "courier",
               "count": 0
             },
             {
-              "id": 385485664564563543736,
-              "name": "54",
+              "id": 314570326687568,
+              "name": "Peter Pirogov",
               "position": "courier",
-              "count": 0
+              "count": 0,
+              "write": true
             },
             {
-              "id": 4252435325436798666,
+              "id": 4252435325436798500,
               "name": "55",
               "position": "courier",
               "count": 0
             }
           ]
         }
-
       ]
     }
   ]
