@@ -261,7 +261,7 @@ class RenderTable extends Component {
                     //    selectedNode.children.push(draggingNode);
                     //}
                     // Make sure that the node being added to is expanded so user can see added node is correctly moved
-                    expand(selectedNode);
+                   // expand(selectedNode);
                     //  sortTree();
                     endDrag(draggingNode, selectedNode);
                 } else {
@@ -271,7 +271,19 @@ class RenderTable extends Component {
 
         function endDrag(drag, select) {
             selectedNode = null;
-            if (select) {
+            function checkHierarchy() {
+                var check = false;
+                var result =  d3.selectAll('.ghostCircle')
+                    .filter(function (d, i) {
+                        return d.position === select.position;
+                    }).  filter(function (d, i) {
+                        return d.position === drag.parent.position;
+                    }).data();
+                if (result.length) check = true;
+                return check;
+            }
+
+            if (select && checkHierarchy()) {
                 fetch('rest/update', {
                     method: 'post',
                     headers: {
@@ -290,8 +302,11 @@ class RenderTable extends Component {
                     root.y0 = viewerHeight / 2;
                     update(root)
                 }).catch(function (ex) {
-
+                    update(root)
                 });
+            }
+            else {
+                update(root)
             }
             d3.selectAll('.ghostCircle').attr('class', 'ghostCircle');
             d3.select(domNode).attr('class', 'node');
@@ -299,7 +314,7 @@ class RenderTable extends Component {
             d3.select(domNode).select('.ghostCircle').attr('pointer-events', '');
             updateTempConnector();
             if (draggingNode !== null) {
-                update(root);
+                //update(root);
                 centerNode(draggingNode);
                 draggingNode = null;
             }

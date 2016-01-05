@@ -28,29 +28,27 @@ function findUserData(users, id){
                 }
             }
 
-        }
-        ;
+        };
     }
     return buffer;
 }
 function replaceUserData(users, id, data) {
-    if (_.isEmpty(users)) return users;
     if (_.isArray(users)) {
-        for (var j = 0; j < users.length; j++) {
-            var i = users[j];
-            if (i.id === id) {
+        var correct = _.map(users, function(i) {
+            if (i.id === id && !i.write) {
                 i.name = data.name;
+                i.write = true;
                 i.id = data.id;
-                return users;
+                return i;
             }
             else {
-                if (!_.isEmpty(i.children)) i.children = replaceUserData(i.children, id, data);
+                if (!_.isEmpty(i.children))  i.children = replaceUserData(i.children, id, data);
+                return i
             }
-        }
-
+        });
     }
     ;
-    return users;
+    return correct;
 }
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -64,7 +62,7 @@ router.post('/rest/update', function(req, res, next) {
   var dragInfo = findUserData(users , drag);
   var selectInfo = findUserData(users , select);
     var usersForSend = replaceUserData([users], drag, selectInfo)[0];
-    usersForSend = replaceUserData([users], select, dragInfo)[0];
+    usersForSend = replaceUserData([usersForSend], select, dragInfo)[0];
     //fs.writeFileSync(fileName, JSON.stringify(usersForSend));
     res.send(JSON.stringify(usersForSend));
   //console.log(dragInfo, drag)
